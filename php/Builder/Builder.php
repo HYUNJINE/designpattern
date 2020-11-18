@@ -12,10 +12,10 @@ abstract class Builder
     }
 
     public function getInstance() {
-        return $this->algorism->$getInstance();
+        return $this->algorism->getInstance();
     }
 
     abstract public function build();
 
-    
+
 }
